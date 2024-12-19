@@ -1,0 +1,27 @@
+# .netcore 2.2 與 service fabric 目前支持最新的操作系統版本是ubuntu 18.04
+FROM ubuntu:18.04
+
+# 配置asp.net2.2的前置依賴
+RUN apt-get -y update && \
+  apt-get -y upgrade && \
+  apt-get -y install wget && \
+  wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && \
+   dpkg -i packages-microsoft-prod.deb && \
+   	rm -rf /var/lib/apt/lists/*
+
+
+# 配置service fabric的免密校驗
+RUN echo "servicefabric servicefabric/accepted-eula-ga select true" | debconf-set-selections
+RUN echo "servicefabricsdkcommon servicefabricsdkcommon/accepted-eula-ga select true" | debconf-set-selections
+
+
+# 安裝asp.net2.2的SDK與service fabric的底層依賴
+RUN apt-get -y update && \
+  apt-get -y upgrade && \
+   apt-get -y install software-properties-common  && \
+	add-apt-repository universe && \
+	apt-get -y install apt-transport-https && \
+	apt-get -y update  && \
+	apt-get -y install dotnet-sdk-2.2  \
+	servicefabricsdkcommon && \
+	rm -rf /var/lib/apt/lists/*
