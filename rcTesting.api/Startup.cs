@@ -16,6 +16,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+// 增加引入路由相關的包
+using Microsoft.AspNetCore.Routing;
 
 namespace rcTesting.api
 {
@@ -104,8 +106,15 @@ namespace rcTesting.api
             });
 
             app.UseStaticFiles();
+            // app.UseMvc();
+            // 將註冊路由的動作從Service Fabric的註冊，轉為.net內置的註冊。
+            app.UseMvc(routes =>
+            {
+              routes.MapRoute(
+                name: "default",
+                template: "{controller=Home}/{action=Index}/{id?}");
+            });
 
-            app.UseMvc();
         }
     }
 }
