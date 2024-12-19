@@ -1,0 +1,17 @@
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.csproj.CoreCompileInputs.cache
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.AssemblyInfoInputs.cache
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.AssemblyInfo.cs
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\hostpolicy.dll
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\hostfxr.dll
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\rcTesting.api.exe
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\rcTesting.api.deps.json
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\rcTesting.api.runtimeconfig.json
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\rcTesting.api.runtimeconfig.dev.json
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\rcTesting.api.dll
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.RazorAssemblyInfo.cache
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.RazorAssemblyInfo.cs
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.RazorTargetAssemblyInfo.cache
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\rcTesting.api.pdb
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.dll
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\obj\Debug\netcoreapp2.2\win7-x64\rcTesting.api.pdb
+D:\Ching\Source\Repos\rcTesting\rcTesting.api\bin\Debug\netcoreapp2.2\win7-x64\rcTesting.api.xml

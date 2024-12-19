@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>rcTesting.api</name>
+    </assembly>
+    <members>
+        <member name="T:rcTesting.api.api">
+            <summary>
+            The FabricRuntime creates an instance of this class for each service type instance. 
+            </summary>
+        </member>
+        <member name="M:rcTesting.api.api.CreateServiceInstanceListeners">
+            <summary>
+            Optional override to create listeners (like tcp, http) for this service instance.
+            </summary>
+            <returns>The collection of listeners.</returns>
+        </member>
+        <member name="M:rcTesting.api.Program.Main">
+            <summary>
+            This is the entry point of the service host process.
+            </summary>
+        </member>
+    </members>
+</doc>
